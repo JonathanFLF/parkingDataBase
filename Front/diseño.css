@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: whitesmoke    ;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+    margin-top: 50px;
+  }
+  
+#encabezado{
+  background-color: #4CAF50;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+  }
+  
+  .btn-go-to {
+    background-color: #4CAF50;
+    margin-left: 10px;
+  }
+  
+  .btn-go-to:hover{
+    opacity: 0.8;
+  }
+  button[type="submit"] {
+    padding: 12px 24px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button[type="submit"]:active {
+    transform: translateY(1px);
+    box-shadow: none;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+  }
+  
+  .form-group select,
+  .form-group input[type="text"],
+  .form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .form-group select:focus,
+  .form-group input[type="text"]:focus,
+  .form-group input[type="number"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+
+  #titulos {
+    font-size: 28px;
+    color: #424242;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4CAF50;
+  }
+
+.form-group label[for="idEstado"],
+.form-group label[for="accion"],
+.form-group label[for="descripcion"] {
+  display: block;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.form-group select[name="idEstado"],
+.form-group input[name="accion"],
+.form-group textarea[name="descripcion"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+.form-group label[for="fecha"] {
+    font-size: 1.2em;
+    color: #2f4f4f;
+  }
+  
+  .form-group input[type="date"] {
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px #ccc;
+    margin-bottom: 10px;
+  }
+  
+  
